@@ -3,10 +3,169 @@
 <head>
   <meta charset="UTF-8">
   <title>Spotify Wrapper Player</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
 </head>
 <body>
+<aside class="aside">
+  <div class="aside-container">
+    <header class="aside-header">
+      <a class="aside-link" href="https://github.com/willianjusten/spotify-wrapper-player">
+        <svg class="aside-icon" viewBox="0 0 167.5 167.5">
+          <title>Spotify</title>
+          <path fill="currentColor" d="M83.7 0C37.5 0 0 37.5 0 83.7c0 46.3 37.5 83.7 83.7 83.7 46.3 0 83.7-37.5 83.7-83.7S130 0 83.7 0zM122 120.8c-1.4 2.5-4.6 3.2-7 1.7-19.8-12-44.5-14.7-73.7-8-2.8.5-5.6-1.2-6.2-4-.2-2.8 1.5-5.6 4-6.2 32-7.3 59.6-4.2 81.6 9.3 2.6 1.5 3.4 4.7 1.8 7.2zM132.5 98c-2 3-6 4-9 2.2-22.5-14-56.8-18-83.4-9.8-3.2 1-7-1-8-4.3s1-7 4.6-8c30.4-9 68.2-4.5 94 11 3 2 4 6 2 9zm1-23.8c-27-16-71.6-17.5-97.4-9.7-4 1.3-8.2-1-9.5-5.2-1.3-4 1-8.5 5.2-9.8 29.6-9 78.8-7.2 109.8 11.2 3.7 2.2 5 7 2.7 10.7-2 3.8-7 5-10.6 2.8z"></path>
+          <h1 class="aside-title">Spotify-Wrapper</h1>
+        </svg>
+      </a>
+    </header>
 
-<h1>SPOTIFY WRAPPER PLAYER</h1>
+    <form class="form-wrapper">
+      <input class="form-input" type="text" name="query" placeholder="Type an artist/album" autocomplete="off">
+      <svg class="form-icon" viewBox="0 0 27 28" xmlns="http://www.w3.org/2000/svg"><title>Search</title><path d="M18.387 16.623C19.995 15.076 21 12.907 21 10.5 21 5.806 17.195 2 12.5 2 7.806 2 4 5.806 4 10.5S7.806 19 12.5 19c1.927 0 3.7-.65 5.125-1.73l4.4 5.153.76-.65-4.398-5.15zM12.5 18C8.364 18 5 14.636 5 10.5S8.364 3 12.5 3 20 6.364 20 10.5 16.636 18 12.5 18z" fill="currentColor" fill-rule="evenodd" stroke-width="2"></path></svg>
+    </form>
+  </div>
+
+  <div class="list">
+    <div class="list-item">
+      <img src="https://i.scdn.co/image/a13aadb368a956be48fe9089acb64333f0c0ca40" alt="" class="list-image">
+      <div class="list-description">
+        <p class="list-title">Make Yourself</p>
+        <p class="list-subtitle">Incubus</p>
+      </div>
+    </div>
+
+    <div class="list-item">
+      <img src="https://i.scdn.co/image/9a464b23594697b5a339ce3150a6656e1829d447" alt="" class="list-image">
+      <div class="list-description">
+        <p class="list-title">8</p>
+        <p class="list-subtitle">Incubus</p>
+      </div>
+    </div>
+
+    <div class="list-item">
+      <img src="https://i.scdn.co/image/a13aadb368a956be48fe9089acb64333f0c0ca40" alt="" class="list-image">
+      <div class="list-description">
+        <p class="list-title">Make Yourself</p>
+        <p class="list-subtitle">Incubus</p>
+      </div>
+    </div>
+
+    <div class="list-item">
+      <img src="https://i.scdn.co/image/9a464b23594697b5a339ce3150a6656e1829d447" alt="" class="list-image">
+      <div class="list-description">
+        <p class="list-title">8</p>
+        <p class="list-subtitle">Incubus</p>
+      </div>
+    </div>
+
+    <div class="list-item">
+      <img src="https://i.scdn.co/image/a13aadb368a956be48fe9089acb64333f0c0ca40" alt="" class="list-image">
+      <div class="list-description">
+        <p class="list-title">Make Yourself</p>
+        <p class="list-subtitle">Incubus</p>
+      </div>
+    </div>
+
+    <div class="list-item">
+      <img class="list-image" src="https://i.scdn.co/image/9a464b23594697b5a339ce3150a6656e1829d447" alt="">
+      <div class="list-description">
+        <p class="list-title">8</p>
+        <p class="list-subtitle">Incubus</p>
+      </div>
+    </div>
+  </div>
+</aside>
+
+<main class="container">
+  <div class="container-inner">
+    <div class="album-info">
+      <img class="album-image" src="https://i.scdn.co/image/a13aadb368a956be48fe9089acb64333f0c0ca40" alt="">
+      <p class="album-title">Make Yourself</p>
+      <p class="album-artist">Incubus</p>
+      <p class="album-counter">13 Músicas</p>
+    </div>
+
+    <div class="album-musics">
+      <div class="music active">
+        <p class="music-number">1</p>
+        <p class="music-title">Privilege</p>
+        <p class="music-duration">3:54</p>
+      </div>
+
+      <div class="music">
+        <p class="music-number">2</p>
+        <p class="music-title">Nowhere Fast</p>
+        <p class="music-duration">4:30</p>
+      </div>
+
+      <div class="music">
+        <p class="music-number">3</p>
+        <p class="music-title">Consequence</p>
+        <p class="music-duration">3:18</p>
+      </div>
+
+      <div class="music">
+        <p class="music-number">4</p>
+        <p class="music-title">The Warmth</p>
+        <p class="music-duration">4:24</p>
+      </div>
+
+      <div class="music">
+        <p class="music-number">5</p>
+        <p class="music-title">When it Comes</p>
+        <p class="music-duration">4:00</p>
+      </div>
+
+      <div class="music">
+        <p class="music-number">6</p>
+        <p class="music-title">Stellar</p>
+        <p class="music-duration">3:20</p>
+      </div>
+
+      <div class="music">
+        <p class="music-number">7</p>
+        <p class="music-title">Make Yourself</p>
+        <p class="music-duration">3:03</p>
+      </div>
+
+      <div class="music">
+        <p class="music-number">8</p>
+        <p class="music-title">Drive</p>
+        <p class="music-duration">3:52</p>
+      </div>
+
+      <div class="music">
+        <p class="music-number">9</p>
+        <p class="music-title">Clean</p>
+        <p class="music-duration">3:55</p>
+      </div>
+
+      <div class="music">
+        <p class="music-number">10</p>
+        <p class="music-title">Battlestar Scralatchtica</p>
+        <p class="music-duration">3:49</p>
+      </div>
+
+      <div class="music">
+        <p class="music-number">11</p>
+        <p class="music-title">I Miss You</p>
+        <p class="music-duration">2:48</p>
+      </div>
+
+      <div class="music">
+        <p class="music-number">12</p>
+        <p class="music-title">Pardon Me</p>
+        <p class="music-duration">3:43</p>
+      </div>
+
+      <div class="music">
+        <p class="music-number">13</p>
+        <p class="music-title">Out from Under</p>
+        <p class="music-duration">3:28</p>
+      </div>
+    </div>
+  </div>
+</main>
 
 <script src="bundle.js"></script>
 </body>
