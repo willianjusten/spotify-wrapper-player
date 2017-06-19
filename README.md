@@ -14,9 +14,17 @@ This Application relies on [Fetch API](https://fetch.spec.whatwg.org/). And this
 
 ## How to Run
 
-1. First go to [Spotify Developers API](https://developer.spotify.com/web-api/) and create your Token. Then add your token on [src/spotify.js](src/spotify.js).
+1. First go to [Spotify Developers API](https://developer.spotify.com/web-api/) and create your Token. Then add your token on [src/spotify.js](src/spotify.js). **Remember that the token will expire in 60min**
 2. Install the dependencies with `npm i`.
 3. Run your application with `npm start`.
+
+## Something in the future?
+
+- [ ] Create authentication method to get Token
+- [ ] Show similar artists
+- [ ] Create player buttons (prev, pause/play, pause)
+- [ ] Show music timeline
+- [ ] Be creative =D
 
 ## Contributing
 
