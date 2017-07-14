@@ -4,5 +4,11 @@ module.exports = {
         "react",
         "jsx-a11y",
         "import"
-    ]
+    ],
+    "env": {
+      "browser": true
+    },
+    "rules": {
+      "no-param-reassign": 0
+    }
 };
