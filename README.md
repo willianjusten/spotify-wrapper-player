@@ -2,7 +2,7 @@
 
 ![Spotify Wrapper Player Screenshot](example/screenshot.png)
 
-> This application uses [spotify-wrapper](https://github.com/willianjusten/spotify-wrapper) library to get informations and musics from Spotify. It was created on my [JS TDD course](https://willianjusten.com.br/cursos/) just for study purposes.
+> This application uses [spotify-wrapper](https://github.com/willianjusten/spotify-wrapper) library to get informations and songs from Spotify. It was created on my [JS TDD course](https://willianjusten.com.br/cursos/) just for study purposes.
 
 ## Browser Support
 
